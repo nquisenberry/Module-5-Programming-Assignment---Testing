@@ -19,3 +19,11 @@ class TestSum(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+""" The test results show that the sum() function is working correctly.
+The first test checks that adding the numbers 1, 2, and 3 returns 6.
+The second test checks that adding the values in a tuple returns 5.
+Since both tests passed and the output says "OK", it means the function
+returned the expected results for each test case. If one of the tests
+had failed, it would mean that there is a problem in the function's
+logic and the code would need to be reviewed and corrected. """
